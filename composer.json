@@ -1,0 +1,22 @@
+{
+  "name": "lea21st/proxy",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lea",
+      "email": "lea21st@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "ext-swoole": ">=4",
+    "eaglewu/swoole-ide-helper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "lea21st\\proxy\\": "src/"
+    }
+  }
+}
